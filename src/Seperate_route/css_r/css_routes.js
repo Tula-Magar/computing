@@ -139,6 +139,7 @@ const css_routes = [
   [<Route path="/css_Tag_Selector" element={<CSS_Tag_Selector />} />],
   [<Route path="/css_zIndex" element={<CSS_zIndex />} />],
   [<Route path="/css_comment" element={<CSS_comment />} />],
+  [<Route path="/css_media" element={<CSS_media />} />],
 ];
 
 export default css_routes;
