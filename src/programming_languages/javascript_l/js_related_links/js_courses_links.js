@@ -52,7 +52,7 @@ export default function js_courses_links() {
         </li>
         <li className="blockShadow">
           <NavLink className="HtmlLinks" to="/js_array_methods">
-            Javascript Array Methods
+            Javascript Arrow Function
           </NavLink>
         </li>
         <li className="blockShadow">

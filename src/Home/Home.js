@@ -114,7 +114,7 @@ const Home = () => {
               JavaScript is a interpreted programming language. Used for web,
               mobile and desktop applications ....
             </p>
-            <Link className="different_site" to="/javascript_intro">
+            <Link className="different_site" to="/js_home">
               Learn More &#x2192;
             </Link>
           </div>
