@@ -32,6 +32,12 @@ console.log(name) // cann't be accessed outside the function. You will get an er
 
 }
 console.log(name) // cann't be accessed outside the function. You will get an error`;
+
+  const JsNothing = `function sayHi( name, age, negative ) {
+    console.log(name , age - negative) // can be accessed within the function or block
+}
+sayHi("John", "30", 2 ); // can be accessed outside the function`;
+
   return (
     <>
       <div id="container">
@@ -78,6 +84,16 @@ console.log(name) // cann't be accessed outside the function. You will get an er
             variable is very strict but easy to understand.
           </p>
           <HtmlCssJsEditor props={JsConst} />
+
+          <h1>Using Nothing</h1>
+          <p> I am using nothing type variable in the function parameters.</p>
+          <HtmlCssJsEditor props={JsNothing} />
+          <p>
+            The reason I am using nothing type variable is because I am not sure
+            if the variable will be reassigned or changed. I didn't give the
+            variable a type and JavaScript will assign the type of the variable
+            based on the value that it is assigned automatically.
+          </p>
         </div>
 
         <div id="right">

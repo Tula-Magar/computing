@@ -29,6 +29,14 @@ do {
 words.forEach(word => {
     console.log(word); // prints word at a time -> characters, words, loops, arrays
 }`;
+
+  const ForInLoop = `
+  const object = { name: "John", age: 30 }; 
+    for (let x in object) { //initialization - the variable x is set to 0 and the condition is checked every time the loop runs. If the condition is true, the loop continues. If the condition is false, the loop stops.
+    console.log(x); // prints name, age
+    console.log(object[x]); // prints John, 30
+    }`;
+
   return (
     <>
       <div id="container">
@@ -94,6 +102,15 @@ words.forEach(word => {
           suitable to loop in a word to get a character at a time. See the for
           loop example above.
           <HtmlCssJsEditor props={ForEachLoop} />
+          <h1>For in Loop</h1>
+          <p>
+            The for in loop is used to iterate over the properties of an object.
+            The for in helps to return the keys of an object and access the
+            value of object using the key. The for in loop express as ( for
+            (variable in list) "{}" is the block of code to be executed.)
+          </p>
+          <b>Note:</b>The for in loop is not a replacement for the for loop. The
+          for in loop isn't suitable to loop in a arrays or lists.
         </div>
 
         <div id="right">
