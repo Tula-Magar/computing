@@ -17,53 +17,209 @@ export default function JsArrow() {
         </div>
 
         <div id="middle">
-          <h1>Javascript Array</h1>
+          <h1>Javascript Arrays</h1>
           <p>
-            An array is a data structure that stores a collection of data. It is
-            a list of items. The items can be of any type. For example, an array
-            can store a list of numbers, a list of strings, a list of objects, a
-            list of functions, and so on. The items in an array are called
-            elements. The elements in an array are ordered. The order is
-            important because each element in an array has an index. The index
-            is a number that represents the position of the element in the
-            array. The first element in an array has an index of 0, the second
-            element has an index of 1, and so on. The last element in an array
-            has an index of array.length - 1. The length property is a number
-            that represents the number of elements in the array. The length
-            property is always one more than the highest index in the array. The
-            length property is useful when you want to loop through the elements
-            in an array. For example, if you want to loop through the elements
-            in an array, you can use a for loop. The for loop will run as many
-            times as the length of the array. The for loop will start at 0 and
-            end at array.length - 1. The for loop will increment the index by 1
-            each time it runs. The for loop will use the index to access the
-            element at that index. The for loop will use the element to do
-            something. For example, you can use the for loop to add all the
-            elements in an array. The for loop will add the element to a
-            variable. The for loop will continue to add the elements until it
-            reaches the end of the array. The for loop will return the variable.
-            The variable will contain the sum of all the elements in the array.
-            The for loop will look like this:
+            Arrays are a data structure that can hold multiple values in a
+            single variable. Arrays are zero based, meaning the first index is 0
+            and the last index is the length of the array - 1. Arrays can be
+            created with the following syntax:
           </p>
-          <HtmlCssJsEditor
-            props={`const array = [1, 2, 3, 4, 5];\nconst sum = 0;\nfor (let i = 0; i < array.length; i++) {\n  sum += array[i];\n}\nconsole.log(sum);`}
-          />
+          <pre>
+            <code>var myArray = [value1, value2, value3, value4, value5];</code>
+          </pre>
+          <p>Arrays can be created with the following syntax:</p>
+          <pre>
+            <code>
+              var myArray = new Array(value1, value2, value3, value4, value5);
+            </code>
+          </pre>
+          <p>Arrays can be created with the following syntax:</p>
+          <pre>
+            <code>var myArray = new Array(5);</code>
+          </pre>
+          <p>Arrays can be created with the following syntax:</p>
+          <h1>How to access an element in an array</h1>
           <p>
-            The for loop will run 5 times. The first time the for loop runs, the
-            index will be 0. The for loop will add the element at index 0 to the
-            sum variable. The sum variable will be 1. The second time the for
-            loop runs, the index will be 1. The for loop will add the element at
-            index 1 to the sum variable. The sum variable will be 3. The third
-            time the for loop runs, the index will be 2. The for loop will add
-            the element at index 2 to the sum variable. The sum variable will be
-            6. The fourth time the for loop runs, the index will be 3. The for
-            loop will add the element at index 3 to the sum variable. The sum
-            variable will be 10. The fifth time the for loop runs, the index
-            will be 4. The for loop will add the element at index 4 to the sum
-            variable. The sum variable will be 15. The for loop will end. The
-            sum variable will be 15. The sum variable will be logged to the
-            console. The console will log 15.
+            To access an element in an array, you can use the following syntax:
           </p>
+          <pre>
+            <code>
+              var myArray = [value1, value2, value3, value4, value5];
+              myArray[0]; // value1 myArray[1]; // value2 myArray[2]; // value3
+              myArray[3]; // value4 myArray[4]; // value5
+            </code>
+          </pre>
+          <h1> How to add an element to an array</h1>
+          <p>
+            To add an element to an array, you can use the following syntax:
+          </p>
+          <pre>
+            <code>
+              var myArray = [value1, value2, value3, value4, value5]; myArray[5]
+              = value6;
+            </code>
+          </pre>
+          <h1>How to remove an element from an array</h1>
+          <p>
+            To remove an element from an array, you can use the following
+            syntax:
+          </p>
+          <pre>
+            <code>
+              var myArray = [value1, value2, value3, value4, value5];
+              myArray.pop(); // removes the last element in the array
+              myArray.shift(); // removes the first element in the array
+              myArray.splice(index, 1); // removes the element at the specified
+              index
+            </code>
+          </pre>
+          <h1>How to replace an element in an array with another element</h1>
+          <p>
+            To replace an element in an array with another element, you can use
+            the following syntax:
+          </p>
+          <pre>
+            <code>
+              var myArray = [value1, value2, value3, value4, value5];
+              myArray[index] = newValue;
+            </code>
+          </pre>
+          <h1>
+            How to check if an element exists in an array using the indexOf
+          </h1>
+          <p>
+            To check if an element exists in an array using the indexOf method,
+            you can use the following syntax:
+          </p>
+          <pre>
+            <code>
+              var myArray = [value1, value2, value3, value4, value5];
+              myArray.indexOf(value); // returns the index of the value
+            </code>
+          </pre>
+          <h1>
+            How to check if an element exists in an array using the includes
+          </h1>
+          <p>
+            To check if an element exists in an array using the includes method,
+            you can use the following syntax:
+          </p>
+          <pre>
+            <code>
+              var myArray = [value1, value2, value3, value4, value5];
+              myArray.includes(value); // returns true or false
+            </code>
+          </pre>
+          <h1>How to check if an element exists in an array using the find</h1>
+          <p>
+            To check if an element exists in an array using the find method, you
+            can use the following syntax:
+          </p>
+          <pre>
+            <code>
+              var myArray = [value1, value2, value3, value4, value5];
+              myArray.find(value); // returns the value or undefined
+            </code>
+          </pre>
+          <h1>
+            How to check if an element exists in an array using the findIndex
+          </h1>
+          <p>
+            To check if an element exists in an array using the findIndex
+            method, you can use the following syntax:
+          </p>
+          <pre>
+            <code>
+              var myArray = [value1, value2, value3, value4, value5];
+              myArray.findIndex(value); // returns the index of the value or -1
+            </code>
+          </pre>
+          <h1>How to check if an element exists in an array using the some</h1>
+          <p>
+            To check if an element exists in an array using the some method, you
+            can use the following syntax:
+          </p>
+          <pre>
+            <code>
+              var myArray = [value1, value2, value3, value4, value5];
+              myArray.some(value); // returns true or false
+            </code>
+          </pre>
+          <h1>How to check if an element exists in an array using the every</h1>
+          <p>
+            To check if an element exists in an array using the every method,
+            you can use the following syntax:
+          </p>
+          <pre>
+            <code>
+              var myArray = [value1, value2, value3, value4, value5];
+              myArray.every(value); // returns true or false
+            </code>
+          </pre>
+          <h1>
+            How to check if an element exists in an array using the forEach
+          </h1>
+          <p>
+            To check if an element exists in an array using the forEach method,
+            you can use the following syntax:
+          </p>
+          <pre>
+            <code>
+              var myArray = [value1, value2, value3, value4, value5];
+              myArray.forEach(value); // returns undefined
+            </code>
+          </pre>
+          <h1>How to check if an element exists in an array using the map</h1>
+          <p>
+            To check if an element exists in an array using the map method, you
+            can use the following syntax:
+          </p>
+          <pre>
+            <code>
+              var myArray = [value1, value2, value3, value4, value5];
+              myArray.map(value); // returns an array
+            </code>
+          </pre>
+          <h1>
+            How to check if an element exists in an array using the filter
+          </h1>
+          <p>
+            To check if an element exists in an array using the filter method,
+            you can use the following syntax:
+          </p>
+          <pre>
+            <code>
+              var myArray = [value1, value2, value3, value4, value5];
+              myArray.filter(value); // returns an array
+            </code>
+          </pre>
+          <h1>
+            How to check if an element exists in an array using the reduce
+          </h1>
+          <p>
+            To check if an element exists in an array using the reduce method,
+            you can use the following syntax:
+          </p>
+          <pre>
+            <code>
+              var myArray = [value1, value2, value3, value4, value5];
+              myArray.reduce(value); // returns a value
+            </code>
+          </pre>
+          <h1>
+            How to check if an element exists in an array using the reduceRight
+          </h1>
+          <p>
+            To check if an element exists in an array using the reduceRight
+            method, you can use the following syntax:
+          </p>
+          <pre>
+            <code>
+              var myArray = [value1, value2, value3, value4, value5];
+              myArray.reduceRight(value); // returns a value
+            </code>
+          </pre>
+          >>>>>>> 203f97c6627b78e93b70fb0ead7e95c800c1cbec
         </div>
 
         <div id="right">
