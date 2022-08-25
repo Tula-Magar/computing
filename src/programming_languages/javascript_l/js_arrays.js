@@ -219,7 +219,6 @@ export default function JsArrow() {
               myArray.reduceRight(value); // returns a value
             </code>
           </pre>
-          >>>>>>> 203f97c6627b78e93b70fb0ead7e95c800c1cbec
         </div>
 
         <div id="right">
