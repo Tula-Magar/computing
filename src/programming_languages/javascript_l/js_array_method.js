@@ -45,7 +45,7 @@ export default function JsArrowFunction() {
           <p>
             Paramenters is a list of variables that are used to define the
             function. The parameters are separated by commas. The parameters is
-            useful when you want to reuse the data. For example.
+            useful when you want to reuse the data. For example
           </p>
           <HtmlCssJsEditor
             props={`const add = (a, b) => {
