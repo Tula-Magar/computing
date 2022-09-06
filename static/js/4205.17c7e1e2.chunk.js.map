@@ -1,0 +1,1 @@
+{"version":3,"file":"static/js/4205.17c7e1e2.chunk.js","mappings":"+KAEe,SAASA,IACtB,OACE","sources":["Questions/QuestionList/WindowScreenColor.js"],"sourcesContent":["import React from 'react'\r\n\r\nexport default function WindowScreenColor() {\r\n  return (\r\n    <div>WindowScreenColor</div>\r\n  )\r\n}\r\n"],"names":["WindowScreenColor"],"sourceRoot":""}

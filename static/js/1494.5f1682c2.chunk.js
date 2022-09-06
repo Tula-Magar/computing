@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkcomputing=self.webpackChunkcomputing||[]).push([[1494],{1494:function(n,e,t){t.r(e),t.d(e,{default:function(){return c}});t(8381);var u=t(9343);function c(){return(0,u.jsx)("div",{children:"UnInstall_Depensy_in_React"})}}}]);
+//# sourceMappingURL=1494.5f1682c2.chunk.js.map

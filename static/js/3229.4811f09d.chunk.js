@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkcomputing=self.webpackChunkcomputing||[]).push([[3229],{3229:function(n,t,e){e.r(t),e.d(t,{default:function(){return c}});e(8381);var i=e(9343);function c(){return(0,i.jsx)("div",{style:{marginTop:"20vh",width:"100vw",height:"100vh",textAlign:"center",fontSize:"100px"},children:"How to Hide BootStrap Collapse When Click in Links in React?"})}}}]);
+//# sourceMappingURL=3229.4811f09d.chunk.js.map
