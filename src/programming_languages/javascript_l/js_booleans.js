@@ -15,7 +15,7 @@ export default function JsBoolean() {
     console.log("True");
     } 
     else if (FalseBoolean === false) {
-        console.log("False");
+         return False; 
         }`;
 
   return (
@@ -33,7 +33,7 @@ export default function JsBoolean() {
             only be true or false. It is very important to know that booleans
             are not the same as numbers, strings, or something else.
           </p>
-          <p>Booleans can be created with the following syntax:</p>
+          <HtmlCssJsEditor props={myBoolean} />
         </div>
 
         <div id="right">
