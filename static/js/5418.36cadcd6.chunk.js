@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkcomputing=self.webpackChunkcomputing||[]).push([[5418],{5418:function(e,t,n){n.r(t),n.d(t,{default:function(){return i}});n(8381);var c=n(9343);function i(){return(0,c.jsx)("div",{children:"When viewing an email check the top of Outlook for a tab called 'Immersive Reader'. Here, there is a button called 'Text Spacing' which you can toggle on or off. My guess is that it's turned on by accident."})}}}]);
+//# sourceMappingURL=5418.36cadcd6.chunk.js.map

@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkcomputing=self.webpackChunkcomputing||[]).push([[4205],{4205:function(n,u,e){e.r(u),e.d(u,{default:function(){return r}});e(8381);var c=e(9343);function r(){return(0,c.jsx)("div",{children:"WindowScreenColor"})}}}]);
+//# sourceMappingURL=4205.17c7e1e2.chunk.js.map
