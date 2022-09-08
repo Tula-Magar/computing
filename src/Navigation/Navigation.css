@@ -130,7 +130,8 @@
   color: inherit;
 }
 
-@media (min-width: 767px) {
+@media ((min-width: 767px) and (max-width:1404px)) {
+
   .size {
     position: -webkit-sticky;
     position: sticky;
@@ -140,6 +141,63 @@
     /* giving higher number to make sure it stays on top */
 
     background-color: var(--background-color);
+   
+    
+  }
+
+  #leftt,
+  #ShowInVerySmall {
+    display: none;
+  }
+
+  #bg {
+    opacity: 0.9;
+    font-weight: bold;
+    min-height: 10vh;
+
+    width: 100vw;
+    padding: 25px;
+  }
+
+  #bgg {
+    opacity: 0.9;
+    font-weight: bold;
+    min-height: 10vh;
+    margin: auto;
+    width: 90%;
+    padding: 25px;
+    padding-left: 22px;
+    padding-right: 20px;
+  }
+}
+
+.change-color {
+  color: var(--default-text-color);
+}
+
+.login {
+  background-color: transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+  opacity: 0.9;
+  font-weight: bold;
+  color: inherit;
+}
+
+@media (min-width: 1405px) {
+  .size {
+    position: -webkit-sticky;
+    position: sticky;
+    padding: relative;
+    top: 0;
+    z-index: 5;
+    /* giving higher number to make sure it stays on top */
+
+    background-color: var(--background-color);
+
   }
 
   #leftt,
@@ -152,7 +210,7 @@
     font-weight: bold;
     min-height: 10vh;
     margin: auto;
-    width: 90%;
+    width: 1400px;
     padding: 25px;
   }
   #bgg {
@@ -183,42 +241,30 @@
   color: inherit;
 }
 
-@media (min-width: 2200px) {
-  .size {
-    position: -webkit-sticky;
-    position: sticky;
-    padding: relative;
-    top: 0;
-    z-index: 5;
-    /* giving higher number to make sure it stays on top */
 
-    background-color: var(--background-color);
-    margin: auto;
-    width: 1930px;
-    justify-content: center;
-  }
+/* 
+.size {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  position: -webkit-sticky;
+  position: sticky;
+  padding: relative;
+  top: 0;
+  z-index: 5;
+  list-style: none;
+  margin: auto;
+  max-width: 100%;
 
-  #leftt,
-  #ShowInVerySmall {
-    display: none;
-  }
 
-  #bg {
-    opacity: 0.9;
-    font-weight: bold;
-    min-height: 10vh;
-    margin: auto;
-    width: 90%;
-    padding: 25px;
-  }
-  #bgg {
-    opacity: 0.9;
-    font-weight: bold;
-    min-height: 10vh;
-    margin: auto;
-    width: 90%;
-    padding: 25px;
-    padding-left: 22px;
-    padding-right: 20px;
-  }
 }
+
+.size>.left {
+  justify-content: flex-start;
+  text-decoration: none;
+}
+
+.size>.right {
+  justify-content: flex-end;
+  text-decoration: none;
+} */

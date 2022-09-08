@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./Navigation.css";
 import { Navbar, Nav } from "react-bootstrap";
-import { NavLink } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 // eslint-disable-next-line
 import { GoogleLogin, GoogleLogout } from "react-google-login";
 
@@ -103,6 +103,30 @@ function QuestionPageNavigation() {
           </Navbar.Collapse>
         </Navbar>
       </div>
+      {/* <div className="size">
+        <div className="left">
+          <Link className="link" to="/">
+            Logo
+          </Link>
+
+          <Link className="link" to="/about">
+            About
+          </Link>
+
+          <Link className="link" to="/careers">
+            Career
+          </Link>
+
+          <Link className="link" to="/question">
+            Questions
+          </Link>
+        </div>
+        <div className="right">
+          <Link className="link" to="/book">
+            Books
+          </Link>
+        </div>
+      </div> */}
     </>
   );
 }

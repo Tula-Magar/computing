@@ -116,6 +116,30 @@ function Navigation() {
           </Navbar.Collapse>
         </Navbar>
       </div>
+      {/* <div className="size">
+        <div className="left">
+          <Link className="link" to="/">
+            Logo
+          </Link>
+
+          <Link className="link" to="/about">
+            About
+          </Link>
+
+          <Link className="link" to="/careers">
+            Career
+          </Link>
+
+          <Link className="link" to="/question">
+            Questions
+          </Link>
+        </div>
+        <div className="right">
+          <Link className="link" to="/book">
+            Books
+          </Link>
+        </div>
+      </div> */}
     </React.Fragment>
   );
 }
