@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkcomputing=self.webpackChunkcomputing||[]).push([[7959],{7959:function(n,t,c){c.r(t);var u=c(9439),e=c(2791),o=c(184);t.default=function(){var n=(0,e.useState)(!1),t=(0,u.Z)(n,2),c=t[0],i=t[1];return(0,o.jsx)("div",{children:(0,o.jsx)("button",{style:{backgroundColor:c?"salmon":"",color:c?"white":""},onClick:function(){i(!c)},children:"Click"})})}}}]);
+//# sourceMappingURL=7959.805146f1.chunk.js.map
