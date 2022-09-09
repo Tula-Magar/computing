@@ -104,13 +104,13 @@ function Questions_List() {
         <div id="container">
           <div id="left">
             <li className="list">
-              <Link className="lists" to="/">
+              <Link className="list" to="/">
                 Home
               </Link>
-              <Link className="lists" to="/">
+              <Link className="list" to="/">
                 Home
               </Link>
-              <Link className="lists" to="/">
+              <Link className="list" to="/">
                 Home
               </Link>
             </li>
@@ -120,7 +120,7 @@ function Questions_List() {
             <PaginatedItems />
           </div>
 
-          <div id="right" className="right Right_t">
+          <div id="right">
             <br />
             <h1>RIGHT SIDE</h1>
             <br />
