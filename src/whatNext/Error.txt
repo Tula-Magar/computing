@@ -1,3 +1,0 @@
-# First check out tomorrow night:
-
-    After the nav to reponsive using react-bootstrap. NOT: My nav links isn't working in the internet but works on local. 
