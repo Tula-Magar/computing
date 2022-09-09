@@ -1,0 +1,60 @@
+:root {
+  /* Colors */
+  /* --background-color: rgb(53, 52, 52); */
+  --background-color: #d3d3d3;
+
+  /* Text Colors */
+  --default-text-color: rgb(255, 255, 255);
+  --Mini-info-bg-color: rgb(33, 186, 197);
+  --Black-text-color: rgb(0, 0, 0);
+  --question-link-color: #00539cff;
+  --SampleCode-background: rgb(174, 177, 179);
+  --Footer-Background-Color: #00539cff !important;
+  --Paragraph-Background-Color: #6a8a82 !important;
+  --Everything-Background-Color: #061550b7 !important;
+  --Bg-Benefit-Color: #04384b !important;
+  --Learn-Background-Color: #174747 !important;
+  --Mission-Background-Color: #132237 !important;
+  --Links--Color: rgb(138, 180, 248) !important;
+  --One--line-color: #000 !important;
+  --Bracket-Color: #000 !important;
+  --HTML-tag-Color: rgb(183, 83, 1) !important;
+  --HTMl-attribute-Color: rgb(1, 84, 147) !important;
+  --HTMl-attribute-Name-Color: rgb(86, 122, 13) !important;
+  /* Position */
+
+  --text-left: left;
+
+  /* Font Size */
+
+  /* Desktop */
+
+  --default-font-size: 16px !important;
+  --Header-font-size: 1.7rem !important;
+
+  /* Mobile */
+
+  --default-font-size-mobile: 16px !important;
+
+  /* tablet */
+
+  --default-font-size-tablet: 15px !important;
+
+  /* React */
+  --React-Keyword-Color: rgb(1, 84, 147);
+  --React-Function-Color: rgb(97, 6, 97);
+  --react-import-color: rgb(0, 119, 170);
+
+  /* HTML */
+  --html-tag-color: rgb(110, 52, 4);
+
+  /* Programming Language Background */
+  --bg-programming: rgb(40, 42, 53);
+  --background-color-1: rgb(255, 185, 255);
+  --background-color-2: rgb(255, 192, 199);
+  --background-color-3: rgb(243, 216, 157);
+  --background-color-4: rgb(169, 226, 226);
+  --background-color-5: rgb(201, 229, 155);
+  --background-color-6: rgb(243, 160, 243);
+  --background-color-7: rgb(143, 148, 219);
+}
