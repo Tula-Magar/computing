@@ -63,6 +63,7 @@ export default function Html_Home() {
               4.01, which was published in the year 2012.
             </li>
           </ol>
+          <p> Have fun learning HTML!</p>
         </div>
 
         <div id="right">
