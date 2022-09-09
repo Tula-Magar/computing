@@ -1,0 +1,4 @@
+# VM10:6772 crbug/1173575, non-JS module files deprecated.
+    solution
+
+#https://stackoverflow.com/questions/45920143/how-to-handle-array-buffer-allocation-failed-in-nodejs?answertab=trending#tab-top
