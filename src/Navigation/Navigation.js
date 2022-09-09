@@ -3,15 +3,12 @@ import "./Navigation.css";
 import { Navbar, Nav } from "react-bootstrap";
 import { NavLink } from "react-router-dom";
 import CustomLeftSideVerticallyNavbar from "./Custom_leftSide_vertically_navbar.js";
-// eslint-disable-next-line
-import { GoogleLogin, GoogleLogout } from "react-google-login";
 
 //https://stackoverflow.com/questions/40491483/hide-collapse-navbar-after-link-click-react-redux-react-bootstrap
 
 function Navigation() {
   const [expanded, setExpanded] = useState(false);
   // eslint-disable-next-line
-  const [isLoggedIn, setIsLoggedIn] = useState(false);
 
   return (
     <React.Fragment>
