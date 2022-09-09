@@ -29,9 +29,7 @@ function PaginatedItems() {
           <div className="question-list">
             <div>
               <div id="curves" className="line">
-                {" "}
                 <Link to={f.url} className="question_links">
-                  {" "}
                   &nbsp; {f.title}
                 </Link>
                 <div id="curve1"> </div>
@@ -106,16 +104,13 @@ function Questions_List() {
         <div id="container">
           <div id="left">
             <li className="list">
-              <Link className="list" to="/">
-                {" "}
+              <Link className="lists" to="/">
                 Home
               </Link>
-              <Link className="list" to="/">
-                {" "}
+              <Link className="lists" to="/">
                 Home
               </Link>
-              <Link className="list" to="/">
-                {" "}
+              <Link className="lists" to="/">
                 Home
               </Link>
             </li>

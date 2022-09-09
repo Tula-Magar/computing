@@ -52,7 +52,7 @@
 .fixwidth {
   position: relative;
 }
-
+/* 
 #container {
   margin: auto;
   width: 90%;
@@ -61,9 +61,9 @@
   justify-content: center;
   gap: 20px;
   position: relative;
-}
+} */
 
-#left {
+/* #left {
   width: 310px;
   max-width: 310px;
   position: -webkit-sticky;
@@ -98,7 +98,7 @@
   text-align: left;
   padding: 20px;
   padding-top: 0px;
-}
+} */
 
 .input-container {
   padding: 30px;
@@ -147,7 +147,7 @@
   }
 
   #left {
-    flex-basis: 440px;
+    flex-basis: 400px;
     position: -webkit-sticky;
     position: sticky;
     top: 15vh;
@@ -166,10 +166,11 @@
   }
 
   #right {
-    flex-basis: 500px;
+    flex-basis: 450px;
     height: auto;
     text-align: right;
     padding: 20px;
+    padding-right: 0px;
   }
 
   .Right_t {
