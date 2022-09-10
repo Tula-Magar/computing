@@ -139,39 +139,7 @@
   color: #6de6e6;
   text-align: center;
 }
-.Team {
-  margin: auto;
-  width: 90%;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(min(400px, 100%), 1fr));
-  grid-gap: 150px 20px;
-  padding-bottom: 80px;
-}
-.card {
-  display: flex;
-  background: #e0e0e0;
-  box-shadow: inset 20px 20px 60px #a1c9c9, inset -20px -20px 60px #7ba3a3;
-  transition: 0.3s;
-  color: black;
-  padding: 20px;
-  position: absolute;
-}
 
-.card:hover {
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
-}
-
-.card > .PersonImage {
-  position: absolute;
-  object-fit: fill;
-  left: calc(50% - 100px);
-  top: -20%;
-  height: 200px;
-  width: 200px;
-  border-radius: 100px;
-  margin-top: -100px;
-  border: 5px solid var(--background-color);
-}
 
 @media (max-width: 640px) {
   .Container_WhoWeAre {
@@ -247,7 +215,7 @@
     width: 90%;
     text-align: var(--text-center);
     margin-top: 100px;
-    position: relative;
+    overflow-anchor: none;
   }
 
   .ToWhom > .weTheOne {
@@ -343,6 +311,40 @@
     }
   }
 
+
+
+.Team {
+  margin: auto;
+  width: 90%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(400px, 100%), 1fr));
+  grid-gap: 150px 20px;
+  padding-bottom: 80px;
+}
+
+.card {
+  background: #e0e0e0;
+  box-shadow: inset 20px 20px 60px #a1c9c9, inset -20px -20px 60px #7ba3a3;
+  transition: 0.3s;
+  color: black;
+  padding: 20px;
+}
+
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+
+  .card>.PersonImage {
+    position: absolute;
+    object-fit: fill;
+    left: calc(50% - 100px);
+    top: -20%;
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+    margin-top: -100px;
+    border: 5px solid var(--background-color);
+  }
   #ComeFromLeft {
     animation: left 1s ease-in;
   }

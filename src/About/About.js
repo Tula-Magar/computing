@@ -1,6 +1,5 @@
 import React, { useRef, useEffect, useState } from "react";
 import "./About.css";
-import "../Home/Home.css";
 import WeTheOne from "../img/pexels-lisa-fotios-3972467.jpg";
 import UseTitle from "../Title.js";
 import { Link } from "react-router-dom";
@@ -8,7 +7,7 @@ import Globe_Network from "../img/Globe-Network.jpg";
 import Globe from "../img/giphy.gif";
 
 function About() {
-  const myref = useRef();
+  const myref = useRef(false);
   const [visible, setVisible] = useState();
 
   useEffect(() => {
@@ -18,8 +17,9 @@ function About() {
     });
     observer.observe(myref.current);
   }, [myref]);
-  console.log(myref);
+
   UseTitle("About Computing");
+  console.log(visible);
 
   return (
     <React.Fragment>
@@ -132,7 +132,7 @@ function About() {
         <div
           className="weTheOne"
           ref={myref}
-          id={`${visible ? "Left_Filp" : ""}`}
+          id={`${visible ? "" : "Left_Filp"}`}
         >
           <p className="Info">
             We have created a fictional band website. Lorem ipsum dolor sit
@@ -156,7 +156,7 @@ function About() {
         <div
           className="Third"
           ref={myref}
-          id={`${visible ? "Right_Filp" : ""}`}
+          id={`${visible ? "" : "Right_Filp"}`}
         >
           <p className="Info">
             We have created a fictional band website. Lorem ipsum dolor sit
@@ -995,6 +995,7 @@ function About() {
             </ul>
           </div>
         </div>
+
         <div className="Team">
           <div
             className="card"

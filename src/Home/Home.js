@@ -67,20 +67,17 @@ const Home = () => {
             website. I hope you enjoy the website. Please, help us to make this
             website better. You can contact to this website by email via
             <Link className="Link_Color" to="/contact">
-              {" "}
-              contact{" "}
+              contact
             </Link>
             . Thank you. Find out Questions and answers about the computer
             science, programming, information technology, engineering fields and
-            more from{" "}
+            more from
             <Link className="Link_Color" to="/question">
-              {" "}
-              Questions{" "}
+              Questions
             </Link>
             . Find out about the suitable books for you from
             <Link className="Link_Color" to="/book">
-              {" "}
-              Books{" "}
+              Books
             </Link>
             .
           </p>
@@ -215,7 +212,7 @@ const Home = () => {
               and ....
             </p>
             <Link className="different_site" to="/contact">
-              Learn More &#x2192;{" "}
+              Learn More &#x2192;
             </Link>
           </div>
           <div className="windows">
@@ -226,7 +223,7 @@ const Home = () => {
             </p>
 
             <Link className="different_site" to="/contact">
-              Learn More &#x2192;{" "}
+              Learn More &#x2192;
             </Link>
           </div>
           <div className="linux">
@@ -236,7 +233,7 @@ const Home = () => {
               of the linux operating system and ....
             </p>
             <Link className="different_site" to="/contact">
-              Learn More &#x2192;{" "}
+              Learn More &#x2192;
             </Link>
           </div>
         </div>
@@ -268,15 +265,13 @@ const Home = () => {
           <p className="WhatWeDoInfo">
             The benefit of this website is that you can learn about the computer
             science, programming, information technology, engineering fields and
-            more. You can find out about the suitable books for you from{" "}
+            more. You can find out about the suitable books for you from
             <Link className="Link_Color" to="/book">
-              {" "}
-              Books{" "}
-            </Link>{" "}
-            and related problems and solutions from{" "}
+              Books
+            </Link>
+            and related problems and solutions from
             <Link className="Link_Color" to="/question">
-              {" "}
-              Questions{" "}
+              Questions
             </Link>
             . You will gain the knowledge of the computer science, programming,
             information technology, engineering fields and more and make a
@@ -288,8 +283,7 @@ const Home = () => {
             make this website better. You can contact to this website by email
             via
             <Link className="Link_Color" to="/contact">
-              {" "}
-              contact{" "}
+              contact
             </Link>
             .
           </p>
