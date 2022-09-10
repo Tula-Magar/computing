@@ -2,7 +2,6 @@ import React from "react";
 import "./Footer.css";
 import { Link } from "react-router-dom";
 import { SocialIcon } from "react-social-icons";
-//https://stackoverflow.com/questions/40491483/hide-collapse-navbar-after-link-click-react-redux-react-bootstrap
 
 function Footer() {
   return (
@@ -11,8 +10,8 @@ function Footer() {
         <div className="FooterWidth">
           <div className="FooterContainer">
             <div>
-              <h1 className="Footer_Column_Header">Company</h1>
               <ul className="LeftFooter">
+                <li className="Footer_Column_Header">Company</li>
                 <li>
                   <Link className="FooterLinkColors" to="/contact">
                     contact
@@ -31,8 +30,8 @@ function Footer() {
               </ul>
             </div>
             <div>
-              <h1 className="Footer_Column_Header">Product</h1>
               <ul className="MiddleFooter">
+                <li className="Footer_Column_Header">Product</li>
                 <li>
                   <Link className="FooterLinkColors" to="/question">
                     Questions
@@ -47,8 +46,8 @@ function Footer() {
               </ul>
             </div>
             <div>
-              <h1 className="Footer_Column_Header">Resources</h1>
               <ul className="Right_Footer">
+                <li className="Footer_Column_Header">Resources</li>
                 <li>
                   <Link className="FooterLinkColors" to="/survey">
                     Survey
@@ -63,8 +62,8 @@ function Footer() {
             </div>
 
             <div>
-              <h1 className="Footer_Column_Header">Social</h1>
               <ul className="Right_Footer">
+                <li className="Footer_Column_Header">Social</li>
                 <li>
                   <SocialIcon
                     url="https://www.youtube.com/channel/UC3y-6eW4qn4cToD26hMv2xg"

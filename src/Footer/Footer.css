@@ -1,28 +1,83 @@
 .FooterBackgroundColor {
   background-color: var(--Footer-Background-Color);
 }
-.FooterWidth {
-  margin: auto;
-  width: 90%;
+
+@media only screen and (min-width: 1449px){
+  .FooterContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 25px;
+    margin: auto;
+    width: 1400px;
+  }
+
+  .Footer_Column_Header {
+    color: var(--background-color-1);
+    font-weight: bold;
+    font-size: 30px;
+    padding-bottom: 20px;
+    margin-left: -11%;
+  }
+
 }
-.FooterContainer {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  gap: 20px;
-  padding: 25px;
+@media only screen and (min-width: 763px) and (max-width: 1448px) {
+
+  .FooterContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 25px;
+    padding-right: 20px;
+  }
+  .Footer_Column_Header {
+    color: var(--background-color-1);
+    font-weight: bold;
+    font-size: 30px;
+    padding-bottom: 20px;
+    margin-left: -11%;
+  }
+
 }
-.Footer_Column_Header {
-  padding-bottom: 10px;
-  padding-left: 32px;
-  color: var(--background-color-1);
-  font-weight: bold;
-  font-size: 25px;
+@media only screen and (max-width: 762px) {
+  .FooterWidth {
+      margin: auto;
+      width: 90%;
+      padding-left: 5px;
+    }
+
+    .FooterContainer {
+      flex-direction: column;
+      margin-left: 4%;
+    }
+
+    .FooterContainer>div>ul {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      padding: 2px;
+    }
+
+    .Footer_Column_Header {
+      flex: 100%;
+      padding-bottom: 10px;
+      padding-left: 0px;
+      color: var(--background-color-1);
+      font-weight: bold;
+      font-size: 25px;
+    }
+
+    .FooterContainer>div>ul>li {
+      list-style: none;
+      padding: 2px;
+    }
+  
 }
 
 .FooterLinkColors {
   text-decoration: none;
   color: var(--default-text-color);
+
 }
 
 .FooterLinkColors:hover,
@@ -31,51 +86,27 @@
   color: var(--background-color-1);
 }
 
-.FooterContainer > div > ul > li {
+.FooterContainer>div>ul>li {
   list-style: none;
-  padding: 2px;
   text-align: left;
 }
+
 .Logo {
   text-align: center;
   padding: 30px;
   padding-bottom: 50px;
 }
+
 .logo-on {
   color: var(--default-text-color);
   padding: 1px;
 }
 
-.Logo > a {
+.Logo>a {
   color: var(--default-text-color);
   text-decoration: none;
 }
 
-.Logo > a:hover {
+.Logo>a:hover {
   text-decoration: underline;
-}
-
-@media (max-width: 762px) {
-  .Footer_Column_Header {
-      padding-bottom: 10px;
-      padding-left: 0px;
-      color: var(--background-color-1);
-      font-weight: bold;
-      font-size: 25px;
-    }
-  .FooterContainer {
-    flex-direction: column;
-  }
-
-  .FooterContainer > div > ul {
-    display: flex;
-    flex-wrap: wrap; 
-    gap: 20px;
-    padding: 2px;
-  }
-
-  .FooterContainer > div > ul > li {
-    list-style: none;
-    padding: 2px;
-  }
 }
