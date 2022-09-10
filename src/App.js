@@ -1,4 +1,4 @@
-import React, { useState, useEffect, lazy } from "react";
+import React, { useState, useEffect } from "react";
 import {
   Home,
   Navigation,
@@ -10,7 +10,6 @@ import {
   Tour,
   Survey,
   QuestionPageNavigation,
-  HtmlHome,
 } from "./Import/Import.js";
 
 import {
@@ -85,39 +84,6 @@ const Blog = () => {
     </>
   );
 };
-
-const HtmlRelatedCourses = () => {
-  const { HtmlCourses } = useParams();
-
-  const [BlogItem, setBlogItem] = React.useState();
-
-  React.useEffect(() => {
-    const BlogItem = React.lazy(() =>
-      import(`./programming_languages/html_l/${HtmlCourses}.js`)
-    );
-    setBlogItem(BlogItem);
-  }, [HtmlCourses]);
-
-  return (
-    <>
-      <ErrorHandler>
-        <React.Suspense fallback={<div className="loading"></div>}>
-          {BlogItem && <BlogItem />}
-        </React.Suspense>
-      </ErrorHandler>
-    </>
-  );
-};
-// const About = lazy(() => import("./About/About.js"));
-// const QuestionPageNavigation = lazy(() =>
-//   import("./Navigation/QuestionPageNavigation.js")
-// );
-// const Careers = lazy(() => import("./Careers/Careers.js"));
-// const Books = lazy(() => import("./Book/Books.js"));
-// const QuestionsList = lazy(() => import("./Questions/Questions_List.js"));
-// const Survey = lazy(() => import("./Survey/Survey.js"));
-// const Tour = lazy(() => import("./Tour.js"));
-// const Contact = lazy(() => import("./Contact.js"));
 
 const Paths = () => {
   const Pathname = useLocation();
