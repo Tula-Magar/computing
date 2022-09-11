@@ -216,6 +216,7 @@
     text-align: var(--text-center);
     margin-top: 100px;
     overflow-anchor: none;
+    position: relative;
   }
 
   .ToWhom > .weTheOne {
