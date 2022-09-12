@@ -4,7 +4,6 @@ const LeftNav = lazy(() => import("../../LeftNav/leftNav.js"));
 const RelatedCssLinks = lazy(() =>
   import("./js_related_links/js_courses_links.js")
 );
-const HtmlCssJsEditor = lazy(() => import("../../Editor/HtmlCssJsEditor.js"));
 export default function JsHome() {
   UseTitle("Js Home");
 

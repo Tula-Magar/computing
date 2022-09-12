@@ -8,6 +8,36 @@ const HtmlCssJsEditor = lazy(() => import("../../Editor/HtmlCssJsEditor.js"));
 export default function JsFunction() {
   UseTitle("Js Functions");
 
+  //     const Js_getElementbyId = `<!DOCTYPE html>
+  // <html>
+  // <body>
+  //   <h2>What Can JavaScript Do?</h2>
+  //   <p id="demo">JavaScript can change HTML content.</p>
+  //   <button type="button" onclick='first_js()'>Click Me!</button>
+  //   <script>
+  //     function first_js(){
+  //       document.getElementById("demo").innerHTML = "Hello JavaScript!";
+  //     }
+  //   </script>
+  // </body>
+  // </html>`;
+
+  //     const Js_getElementbyClass = `<!DOCTYPE html>
+  // <html>
+  // <body>
+  //   <h2>What Can JavaScript Do?</h2>
+  //   <p class="demo">JavaScript can change HTML content.</p>
+  //   <p class="demo">JavaScript can change</p>
+  //   <button type="button" onclick='first_js()'>Click Me!</button>
+  //   <script>
+  //       function first_js(){
+  //         const ArrayList = document.getElementsByClassName("demo");
+  //         ArrayList[0].innerHTML = "getElementsByClassName collects all elements with the same class name into an array.";
+  //         // ArrayList[1].innerHTML = "You can access an element in the array by using an index number.";
+  //       }
+  //   </script>
+  // </body>
+  // </html>`;
   const CreateFunction = `function CreateFunction() {
     let value = "Hello from a function";
     console.log(value);
