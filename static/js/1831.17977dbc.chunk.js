@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkcomputing=self.webpackChunkcomputing||[]).push([[1831],{1831:function(t,n,e){e.r(n),e.d(n,{default:function(){return u}});e(7313);var i=e(6417);function u(){return(0,i.jsx)("div",{style:{marginTop:"20vh",width:"100vw",height:"100vh",textAlign:"center",fontSize:"100px"},children:"Footer In React"})}}}]);
