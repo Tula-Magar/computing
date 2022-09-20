@@ -19,7 +19,6 @@ function About() {
   }, [myref]);
 
   UseTitle("About Computing");
-  console.log(visible);
 
   return (
     <React.Fragment>
