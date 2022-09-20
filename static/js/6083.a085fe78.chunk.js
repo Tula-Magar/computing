@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkcomputing=self.webpackChunkcomputing||[]).push([[6083],{6083:function(n,u,e){e.r(u),e.d(u,{default:function(){return r}});e(7313);var c=e(6417);function r(){return(0,c.jsx)("div",{children:"WindowScreenColor"})}}}]);
